@@ -16,9 +16,6 @@ def cleanup_temp_directories():
 
 
 def stl2glb(glb_file):
-    if not glb_file.endswith(".stl"):
-        raise gr.Error("Please upload a .stl file")
-
     temp_dir = pathlib.Path(tempfile.mkdtemp())
     temp_directories.append(temp_dir)
 

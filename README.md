@@ -1,6 +1,6 @@
 ---
 title: STL2GLB
-emoji: 🐨
+emoji: 📐
 colorFrom: gray
 colorTo: red
 sdk: gradio
